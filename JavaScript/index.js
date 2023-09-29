@@ -2,7 +2,7 @@
 import('inquirer').then(async (inquirer) => {
     const fs = require('fs');
     const { createSVG } = require('svg.js');
-    const { LogoGenerator, promptUser } = require('./'); // Import LogoGenerator and promptUser from myApp.js
+    const { LogoGenerator, promptUser } = require('./myApp'); // Import LogoGenerator and promptUser from myApp.js
   
     // Call the promptUser function
     promptUser();
