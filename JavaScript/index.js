@@ -30,3 +30,22 @@ function getShape() {
   return choices[index];
 }
 
+// Shape color input function 
+
+function getShapeColor() {
+  const color = readlineSync.question('Enter a color keyword or hexadecimal number for shape color: ');
+  return color; 
+}
+
+//Main functionallity to get the application to work (this function allows us to execute all of our work above)
+
+function main() {
+  const text = getText();                                     
+  const textColor = getColor('Enter a color keyword or hexadecimal number for shape color: ');
+  const shape = getShape();
+  const shapeColor = getColor('Enter a color keyword or hexadecimal number for shape color: ');
+
+  createSVGLogo(text, textColor, shape, shapeColor);
+}
+
+main();
