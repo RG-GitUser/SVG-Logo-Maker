@@ -1,4 +1,5 @@
 //Seperate function to create the SVG logo (this function includes the specific perameters for generating the SVG logo file.)
+const fs = require('fs');
 
 function createSVGLogo(text, textColor, shape, shapeColor) {
   const svgContent = `<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
