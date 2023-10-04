@@ -14,3 +14,19 @@ function getText() {
   }
   return text;
 }
+
+//Color input function 
+
+function getColor(promt) {
+  const color = readlineSync.question(promt);
+  return color;
+}
+
+// Shape input function
+
+function getShape() {
+  const options = ['circle', 'triangle', 'square']; //selecting our shape by referring to "options"
+  const index = readlineSync.keyInSelect(options, "Select a shape: "); //referring to our const "options" to prompt our "index" const to present the user with the "Select a shape" statement.
+  return choices[index];
+}
+
