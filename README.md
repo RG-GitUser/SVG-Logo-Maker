@@ -21,6 +21,7 @@ Users are able to generate a personalized logo using only the terminal.
 
 ### Screenshot 
 
+![image](https://github.com/RG-GitUser/SVG-Logo-Maker/assets/139709113/e912a446-9013-4f28-8877-c68dc24a131c)
 
 
 
