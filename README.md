@@ -19,9 +19,13 @@ In this project, you will be able to see my use of JavaScript to generate a logo
 
 Users are able to generate a personalized logo using only the terminal. As a user, you will also be able to run an associated test case that verifies the overall funcionality of the application. 
 
-### Screenshot 
+#### Screenshot 
 
 ![image](https://github.com/RG-GitUser/SVG-Logo-Maker/assets/139709113/e912a446-9013-4f28-8877-c68dc24a131c)
+
+#### Walkthrough Video 
+
+https://youtu.be/eF73M66UL7I
 
 
 
