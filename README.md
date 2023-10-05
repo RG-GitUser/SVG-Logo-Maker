@@ -3,7 +3,7 @@
 
 ## Description
 
-In this project, you will be able to see my use of JavaScript to generate a logo with a certain set of criteria. 
+In this project, you will be able to see my use of JavaScript to generate a logo with a certain set of criteria, as well as demonstrate my use of running test cases from the terminal. 
 
 ## Installation
 
@@ -17,7 +17,7 @@ In this project, you will be able to see my use of JavaScript to generate a logo
 
 ## Usage
 
-Users are able to generate a personalized logo using only the terminal. 
+Users are able to generate a personalized logo using only the terminal. As a user, you will also be able to run an associated test case that verifies the overall funcionality of the application. 
 
 ### Screenshot 
 
